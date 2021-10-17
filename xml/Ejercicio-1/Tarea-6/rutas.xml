@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rutas xsi:schemaLocation="http://www.uniovi.es rutas.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.uniovi.es">
+<ruta nombre="Ruta Vía de la Plata">
+<tipo>Arquitectura y Paisajes</tipo>
+<dificultad>Difícil</dificultad>
+<fechainicio dia="23" mes="10" año="2020"/>
+<duracion tiempo="3 días"/>
+<agencia nombre="Sin agencia"/>
+<descripcion>No solo se trata de un itinerario cultural de primer orden, 
+sino que además la Red de Cooperación de Ciudades en la Ruta de la Plata 
+es una de las entidades que más claramente apuesta por los moteros. 
+El trazado es la ruta perfecta: cerca de 1.000 kilómetros, desde Asturias hasta Andalucía, 
+a través de cuatro comunidades autónomas y paisajes de ensueño.</descripcion>
+<personas>Personas en buena forma física y personas mayores</personas>
+<inicio ciudad="Sevilla" direccion="Calle Recaredo">
+<coordenadas>
+<latitud>37.3846572</latitud>
+<longitud>-5.9946633</longitud>
+<altitud>7</altitud>
+</coordenadas>
+</inicio> 
+<referencias>
+<sitioweb url="https://motoviajeros.es/via-la-plata-la-ruta-perfecta/"/>
+<sitioweb url="https://es.wikipedia.org/wiki/Camino_de_Santiago_de_la_Plata"/>
+<sitioweb url="https://elviajero.elpais.com/elviajero/2014/09/29/actualidad/1411990389_619411.html"/>
+</referencias>
+<valoracion>8</valoracion>
+<hitos>
+<hito nombre="Mérida">
+<descripcion>La visita a Mérida permite disfrutar del patrimonio legado por los pobladores de la ciudad a lo largo de los siglos. 
+Sus calles y edificios son un reflejo del paso de la cultura romana, visigoda, árabe y cristiana.</descripcion>
+<coordenadas>
+<latitud>38.9161100</latitud>
+<longitud>-6.3436600</longitud>
+<altitud>217</altitud>
+</coordenadas>
+<distancia unidad="km">192</distancia>
+<tiempo>1:30 horas</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://ganar-ganar.mx/wp-content/uploads/2019/01/3.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=hr_gSY6Im8I"/>
+</galeriavideos>
+</galerias>
+</hito>
+<hito nombre="La Bañeza">
+<descripcion>La Bañeza es una ciudad rebosante de cultura en la que hay espacio para todos. 
+Disfruta de sus museos y sus monumentos, de sus parques y jardines, de sus mercados, 
+sus ferias y sus fiestas legendarias, de la gastronomía y de la vida nocturna.</descripcion>
+<coordenadas>
+<latitud>42.2953400</latitud>
+<longitud>-5.9026700</longitud>
+<altitud>771</altitud>
+</coordenadas>
+<distancia unidad="km">447</distancia>
+<tiempo>3 horas</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://static.wixstatic.com/media/8f8104_ecd97b1cfbad4242bd91827063b87d57~mv2.jpg/v1/fill/w_1535,h_968,fp_0.50_0.50,q_90/8f8104_ecd97b1cfbad4242bd91827063b87d57~mv2.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=tupdkI-6Dig"/>
+</galeriavideos>
+</galerias>
+</hito>
+<hito nombre="Gijón">
+<descripcion>Gijón, capital turística de la región, es una de las perlas del Mar Cantábrico y de la costa verde de España. 
+Sus bellas playas y su puerto deportivo se convierten durante el verano en un lugar de referencia para los amantes de la navegación 
+y de los deportes acuáticos que, sobre todo desde el interior de España, se dirigen hacia la ciudad para buscar un poco de tranquilidad.</descripcion>
+<coordenadas>
+<latitud>43.5357300</latitud>
+<longitud>-5.6615200</longitud>
+<altitud>3</altitud>
+</coordenadas>
+<distancia unidad="km">192</distancia>
+<tiempo>1 hora</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://1.bp.blogspot.com/-knhP8VdpH24/U7QrtxyrDII/AAAAAAAAXpE/aU5PpoIJ_xU/s1600/Panor%C3%A1mica+de+Gij%C3%B3n,+Asturias.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=22fJTji3Oqc"/>
+</galeriavideos>
+</galerias>
+</hito>
+</hitos>
+</ruta>
+<ruta nombre="Ruta Costa da Morte">
+<tipo>Arquitectura y Paisajes</tipo>
+<dificultad>Media</dificultad>
+<fechainicio dia="31" mes="10" año="2020"/>
+<duracion tiempo="2 días"/>
+<agencia nombre="Sin agencia"/>
+<descripcion>La Costa da Morte ocupa el segmento noroeste del litoral gallego, extendiéndose al largo de docenas de kilómetros, 
+dentro de los límites de la provincia de A Coruña. En esta costa, encontraremos playas desiertas, ensenadas y acantilados.</descripcion>
+<personas>Personas no acompañadas de niños</personas>
+<inicio ciudad="Arteixo" direccion="Calle Aurela">
+<coordenadas>
+<latitud>43.3281600</latitud>
+<longitud>-8.5183500</longitud>
+<altitud>11</altitud>
+</coordenadas>
+</inicio> 
+<referencias>
+<sitioweb url="https://tusguiasdeviaje.com/tus-rutas-en-moto-con-kambo-costa-da-morte/"/>
+<sitioweb url="https://www.revistaiberica.com/ruta-motera-costa-da-morte/"/>
+<sitioweb url="https://masquecurvas.wordpress.com/2015/07/09/ruta-en-moto-por-la-costa-da-morte/"/>
+</referencias>
+<valoracion>8</valoracion>
+<hitos>
+<hito nombre="Malpica de Bergantiños">
+<descripcion>Malpica de Bergatiños es un municipio situado en la provincia de La Coruña y dentro de la Costa da Morte.
+En sus costas destacan las pequeñas Islas Sisargas, refugio natural de aves marinas, gaviotas, y cormoranes, custodiada por un pequeño faro, 
+actualmente automático, pero en el que durante años se han forjado muchas generaciones de fareros.</descripcion>
+<coordenadas>
+<distancia unidad="km">35</distancia>
+<latitud>43.3149400</latitud>
+<longitud>-8.8227100</longitud>
+<altitud>387</altitud>
+</coordenadas>
+<tiempo>20 minutos</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://pueblosconencanto.net/wp-content/uploads/gracias-por-seguirnos-ya-tenemos-400-me-gusta-en-facebook.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=_4RK81WuYl0"/>
+</galeriavideos>
+</galerias>
+</hito>
+<hito nombre="Camariñas">
+<descripcion>Conocido como el corazón de la Costa da Mortea característica actividad costurera de Camariñas adquirió gran fama en Galicia y en ciertos mercados internacionales: 
+cerca de 2.000 artesanas trabajan actualmente en labores del encaje, convirtiéndose Camariñas en el lugar del mundo con mayor 
+concentración de personas dedicadas a esta actividad.</descripcion>
+<coordenadas>
+<distancia unidad="km">66</distancia>
+<latitud>43.1686400</latitud>
+<longitud>-9.1594300</longitud>
+<altitud>10</altitud>
+</coordenadas>
+<tiempo>30 minutos</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://www.laregion.es/asset/zoomcrop,1366,800,center,center//media/laregion/images/2020/04/13/2020041300285564859.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=SwAf_mSUyAA"/>
+</galeriavideos>
+</galerias>
+</hito>
+<hito nombre="Finisterre">
+<descripcion>Finisterre alberga infinitas historias y leyendas que hoy se tornan en un atractivo turístico imprescindible de conocer 
+para quien visita la Costa da Morte, al ser conocido antaño como el punto donde se acababa el mundo.</descripcion>
+<coordenadas>
+<latitud>42.8893800</latitud>
+<longitud>-9.2894400</longitud>
+<altitud>25</altitud>
+</coordenadas>
+<distancia unidad="km">48</distancia>
+<tiempo>25 minutos</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://galiciatravels.com/wp-content/uploads/2018/03/rvr_-faro_finisterre_004.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=cjyxW6aUKiQ"/>
+</galeriavideos>
+</galerias>
+</hito>
+</hitos>
+</ruta>
+<ruta nombre="Ruta por Cantabria y Asturias">
+<tipo>Paisajística</tipo>
+<dificultad>Fácil</dificultad>
+<fechainicio dia="7" mes="11" año="2020"/>
+<duracion tiempo="1 día"/>
+<agencia nombre="Sin agencia"/>
+<descripcion>Ruta por Cantabria hasta cerca de Unquera, donde se toma la carretera hacia Potes e inmediatamente el desvío para ir por la carretera 
+que discurre junto al río Cares. Una carretera espectacular y unos paisajes impresionantes, para luego girar a la izquierda y subir hasta los Lagos de Covadonga.</descripcion>
+<personas>Todo tipo de motoristas, incluyendo niños.</personas>
+<inicio ciudad="Santoña" direccion="Calle Virgen del Puerto">
+<coordenadas>
+<latitud>43.4538100</latitud>
+<longitud>-3.4436200</longitud>
+<altitud>7</altitud>
+</coordenadas>
+</inicio> 
+<referencias>
+<sitioweb url="https://es.wikiloc.com/rutas-motociclismo/ruta-por-cantabria-y-asturias-2008-tramo-1-santona-los-lagos-de-covadonga-13185595"/>
+<sitioweb url="https://www.jaimeykristravels.com/ruta-en-moto-por-asturias-y-cantabria/"/>
+<sitioweb url="https://nomolesten.com/blog/rutas-por-cantabria-3-dias-de-ensueno/"/>
+</referencias>
+<valoracion>9</valoracion>
+<hitos>
+<hito nombre="Somo">
+<descripcion>Cuna del surf en Cantabria; su condición de playa urbana, con numerosos recursos e infraestructuras, capacidad y repercusión 
+por las escuelas de surf que allí operan, hacen de ella una playa de muy alta ocupación. Largos paseos hasta El puntal o Loredo 
+y la posibilidad de recursos hosteleros son su principal reclamo y valor.</descripcion>
+<coordenadas>
+<latitud>43.4512600</latitud>
+<longitud>-3.7346800</longitud>
+<altitud>20</altitud>
+</coordenadas>
+<distancia unidad="km">25</distancia>
+<tiempo>15 minutos</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://www.travelnsurf.com/archivos/destinacions_foto_gran/100414111143_torres-de-somo.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=mMXidit50EA"/>
+</galeriavideos>
+</galerias>
+</hito>
+<hito nombre="Santillana del Mar">
+<descripcion>Santillana del Mar es sede de una intensa actividad cultural, que se desarrolla durante todo el año en sus diferentes 
+salas de exposiciones y museos. En sus empedradas calles medievales podemos encontrar también múltiples talleres artesanos 
+y degustar sabrosa leche con bizcochos, la merienda más popular en la villa.</descripcion>
+<coordenadas>
+<latitud>43.4042900</latitud>
+<longitud>-4.0992200</longitud>
+<altitud>82</altitud>
+</coordenadas>
+<distancia unidad="km">52</distancia>
+<tiempo>30 minutos</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://www.cope.es/blogs/la-postal/wp-content/uploads/sites/17/2019/03/calles.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=WMcyGHlrm4k"/>
+</galeriavideos>
+</galerias>
+</hito>
+<hito nombre="Potes">
+<descripcion>Potes cuenta con un gran patrimonio arquitectónico religioso, civil y popular, además de sus particulares tradiciones.
+Un paseo por Potes hace transportar al visitante a otra época, con sus callejuelas empedradas y sus casonas populares.</descripcion>
+<coordenadas>
+<distancia unidad="km">82</distancia>
+<latitud>43.1494300</latitud>
+<longitud>-4.6245600</longitud>
+<altitud>291</altitud>
+</coordenadas>
+<tiempo>1 hora</tiempo>
+<galerias>
+<galeriafotos>
+<foto url="https://www.diariodevalderrueda.es/multimedia/images/Potespueblo012.1.jpg"/>
+</galeriafotos>
+<galeriavideos>
+<video url="https://www.youtube.com/watch?v=5wdjq1Trwb8"/>
+</galeriavideos>
+</galerias>
+</hito>
+</hitos>
+</ruta>
+</rutas>

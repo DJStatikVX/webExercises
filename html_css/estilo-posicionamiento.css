@@ -1,0 +1,147 @@
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+
+body {
+    overflow: auto;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.inicio>section {
+    overflow: auto;
+}
+
+/* a = 0, b = 1, c = 2 -> Especificidad = 12*/
+.inicio section img {
+    float: left;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.protagonistas section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-position: outside;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+audio {
+    display: block;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+video {
+    display: block;
+}
+
+/* a = 0, b = 0, c = 2 -> Especificidad = 2*/
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* a = 0, b = 0, c = 2 -> Especificidad = 2*/
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.galeria section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0vw repeat(3, 20vw);
+    grid-row-gap: 6em;
+    justify-content: center;
+    overflow: auto;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.galeria h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__item--9 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}

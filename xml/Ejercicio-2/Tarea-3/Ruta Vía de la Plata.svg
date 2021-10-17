@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 70 500 100">
+	<text x="105" y="205" transform="rotate(90,100,100)">Sevilla</text>
+	<text x="105" y="175" transform="rotate(90,100,100)">Mérida</text>
+	<text x="105" y="145" transform="rotate(90,100,100)">La Bañeza</text>
+	<text x="105" y="115" transform="rotate(90,100,100)">Gijón</text>
+	<polyline
+		fill="none"
+		stroke="red"
+		stroke-width="3"
+		points="0,101.5
+				0,99.09208819714657
+				30,71.85473411154345
+				60,0.0
+				90,99.61089494163424
+				90,100
+				0,100"/>
+</svg>

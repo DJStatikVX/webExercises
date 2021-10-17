@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 70 500 100">
+	<text x="105" y="205" transform="rotate(90,100,100)">Arteixo</text>
+	<text x="105" y="175" transform="rotate(90,100,100)">Malpica de Bergantiños</text>
+	<text x="105" y="145" transform="rotate(90,100,100)">Camariñas</text>
+	<text x="105" y="115" transform="rotate(90,100,100)">Finisterre</text>
+	<polyline
+		fill="none"
+		stroke="red"
+		stroke-width="3"
+		points="0,101.5
+				0,97.1576227390181
+				30,0.0
+				60,97.41602067183463
+				90,93.54005167958657
+				90,100
+				0,100"/>
+</svg>

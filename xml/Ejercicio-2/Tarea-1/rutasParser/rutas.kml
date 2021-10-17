@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <Placemark>
+    <name>Ruta Vía de la Plata</name>
+    <description>No solo se trata de un itinerario cultural de primer orden, 
+sino que además la Red de Cooperación de Ciudades en la Ruta de la Plata 
+es una de las entidades que más claramente apuesta por los moteros. 
+El trazado es la ruta perfecta: cerca de 1.000 kilómetros, desde Asturias hasta Andalucía, 
+a través de cuatro comunidades autónomas y paisajes de ensueño.</description>
+    <LineString>
+      <extrude>1</extrude>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates>
+        -5.994663,37.384657,7.0
+        -6.343660,38.916110,217.0
+        -5.902670,42.295340,771.0
+        -5.661520,43.535730,3.0
+      </coordinates>
+    </LineString>
+    <Style id="lineaMorada">
+      <LineStyle>
+        <color>#FF780078</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+  </Placemark>
+  <Placemark>
+    <name>Ruta Costa da Morte</name>
+    <description>La Costa da Morte ocupa el segmento noroeste del litoral gallego, extendiéndose al largo de docenas de kilómetros, 
+dentro de los límites de la provincia de A Coruña. En esta costa, encontraremos playas desiertas, ensenadas y acantilados.</description>
+    <LineString>
+      <extrude>1</extrude>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates>
+        -8.518350,43.328160,11.0
+        -8.822710,43.314940,387.0
+        -9.159430,43.168640,10.0
+        -9.289440,42.889380,25.0
+      </coordinates>
+    </LineString>
+    <Style id="lineaRoja">
+      <LineStyle>
+        <color>#FF0000FF</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+  </Placemark>
+  <Placemark>
+    <name>Ruta por Cantabria y Asturias</name>
+    <description>Ruta por Cantabria hasta cerca de Unquera, donde se toma la carretera hacia Potes e inmediatamente el desvío para ir por la carretera 
+que discurre junto al río Cares. Una carretera espectacular y unos paisajes impresionantes, para luego girar a la izquierda y subir hasta los Lagos de Covadonga.</description>
+    <LineString>
+      <extrude>1</extrude>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates>
+        -3.443620,43.453810,7.0
+        -3.734680,43.451260,20.0
+        -4.099220,43.404290,82.0
+        -4.624560,43.149430,291.0
+      </coordinates>
+    </LineString>
+    <Style id="lineaNaranja">
+      <LineStyle>
+        <color>#FF0078F0</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,196 @@
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+body { 
+  background-color: #C0C0C0; 
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  min-width: 53em;
+  font-weight: 100;
+  background-image: linear-gradient(to bottom, silver, grey);
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+header { 
+  text-align: center; 
+  background-image: url(./multimedia/header.jpg);
+  border: 0.1875em solid black;
+  border-style: double;
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+h1 { 
+  border: 0.2em solid white;
+  font-family: "Andale Mono", AndaleMono, monospace;
+  background-color: #000000;
+  color: white; 
+  border-style: ridge;
+  font-size:2em;
+  margin: 0.3em;
+  padding: 0.25em;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+h2 { 
+  font-family: "Andale Mono", AndaleMono, monospace; 
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, black, grey);
+  border: 0.1875em solid white;
+  border-style: dashed;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.inicio > section {
+  border: 0.2em solid black;
+  background-color: azure;
+  height: auto;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+p {
+  margin: 0.75em;
+}
+
+/* a = 0, b = 1, c = 2 -> Especificidad = 12*/
+.inicio section img {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  width: 25%;
+  height: 25%;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.protagonistas section {
+  padding: 0.5em;
+  border: 0.25em solid black;
+  background-color: azure;
+}
+
+/* a = 0, b = 0, c = 2 -> Especificidad = 2*/
+.protagonistas section ul {
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.protagonistas img {
+  width: 25%;
+  height: 25%;
+  min-width: 300px;
+  border-radius: 1em;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+li {
+  list-style: circle inside url(./multimedia/ghost.png);
+  font-weight: bold;
+  text-align: left;
+  padding: 0.125em;
+  font-size: 1.25em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+/* a = 0, b = 0, c = 2 -> Especificidad = 2*/
+nav + section { 
+  border: 0.2em solid black;
+  padding: 1%;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+img.encabezado {
+  padding-top: 0;
+  padding-bottom: 5%;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+table, tr, td {
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.15em solid black;
+  border-style: solid;
+  text-align: center;
+  padding: 0.3125em;
+  background-color: azure;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+audio {
+  margin: 0 auto;
+  padding-top: 0.5em;
+  height: 2em;
+  outline: none;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+video {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  background-color: #000000;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+a {
+  font-family: "Andale Mono", AndaleMono, monospace;
+  color: #000000;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+}
+
+/* a = 0, b = 1, c = 3 -> Especificidad = 13*/
+nav ul li:hover {
+  background-color: black;
+}
+
+/* a = 0, b = 1, c = 4 -> Especificidad = 14*/
+nav ul li:hover a {
+  color: white;
+}
+
+/* a = 0, b = 0, c = 1 -> Especificidad = 1*/
+footer {
+  padding-top: 1.25em;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+/* a = 0, b = 0, c = 2 -> Especificidad = 2*/
+footer p {
+  border: 0.05em solid black;
+  background-color: azure;
+  min-width: fit-content;
+  text-align: center;
+}
+
+/* a = 0, b = 0, c = 3 -> Especificidad = 3*/
+nav ul li {
+  background-color: azure;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 0.15em solid black;
+}
+
+/* a = 0, b = 1, c = 1 -> Especificidad = 11*/
+.galeria section {
+  padding-bottom: 5em;
+  height: auto;
+}
+
+/* a = 0, b = 1, c = 0 -> Especificidad = 10*/
+.gallery__img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  min-height: 20em;
+  min-width: 20em;
+  border: 0.5em solid black;
+}

@@ -1,0 +1,8 @@
+Para la realización de este ejercicio, se ha optado por el uso de Java como lenguaje de programación.
+Se ha utilizado la versión Java SE 1.8 para la compilación, y se ha utilizado la librería Apache POI
+para la interpretación del contenido del archivo XLSX. También se utiliza Swing para la interfaz de usuario.
+
+El uso de una aplicación como esta es sencillo. El usuario encontrará, al ejecutar la aplicación,
+un diálogo en el que se muestra un botón grande, con un icono, para abrir el archivo XLSX en cuestión.
+Será entonces cuando el usuario tenga que seleccionar el archivo (el explorador no permitirá abrir otros formatos),
+y, a continuación, se mostrará en una ventana el contenido de las diferentes hojas que componen el documento.
