@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido input {
+    font-size: 1.25em;
+}
+
+#ciudades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ciudad {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    align-items: center;
+    border: 0.15em solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: lightskyblue;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.encabezado * {
+    margin: 0;
+    padding-bottom: 0.1em;
+}
+
+.grados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grados p {
+    vertical-align: center;
+}
+
+.grados img {
+    flex-shrink: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.medicion {
+    font-size: 0.75em;
+}

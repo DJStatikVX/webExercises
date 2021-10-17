@@ -1,0 +1,51 @@
+body {
+    background-color: tan;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    border: 0.5em solid black;
+    border-style: none;
+    border-radius: 1em;
+    width: 15em;
+    margin: 2em;
+    padding: 1em;
+    background-color: darkslategrey;
+}
+
+.calculadora label {
+    display: none;
+    color: white;
+}
+
+input[name="display"] {
+    margin-bottom: 0.25em;
+    background-color: darkseagreen;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 3em;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.memoria {
+    background-color: gray;
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+.operador {
+    background-color: crimson;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    color: white;
+}
+
+.botones input {
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    height: 2.5em;
+}

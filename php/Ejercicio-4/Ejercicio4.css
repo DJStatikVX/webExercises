@@ -1,0 +1,99 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido input {
+    font-size: 1.25em;
+}
+
+#tickers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    align-items: center;
+    border: 0.5em solid white;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+}
+
+.empresa > .cuerpo {
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.25em;
+}
+
+.encabezado * {
+    margin: 0;
+    padding-bottom: 0.15em;
+}
+
+.intercambio {
+    font-size: 0.75em;
+}
+
+.hidden {
+    display: none;
+}
+
+.actualizacion {
+    font-size: 1em;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+#contenido > form > label {
+    color: white;
+    background-color: black;
+}
+
+#contenido > form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido * {
+    margin: 0.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    background-color: lightgray;
+    border: 0.2em solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.strong {
+    font-weight: bold;
+}

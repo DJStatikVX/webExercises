@@ -1,0 +1,72 @@
+canvas {
+    width: 200px;
+    height: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    color: black;
+    background-color: darkseagreen;
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    border: 0.25em solid black;
+    padding: 0.25em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido input {
+    font-size: 1.25em;
+    margin-bottom: 1.5em;
+}
+
+#figuras {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.figura {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    align-items: center;
+    border: 0.5em solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    color: black;
+}
+
+.autor {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#botonAyuda {
+    margin-bottom: 1em;
+}
+
+#ayuda {
+    background-color: lightgray;
+    font-weight: bold;
+    color: black;
+}
+
+.adicional {
+    text-align: center;
+}

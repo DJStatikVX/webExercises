@@ -1,0 +1,82 @@
+body {
+    background-color: tan;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    border: 0.5em solid black;
+    border-style: none;
+    border-radius: 1em;
+    width: 25em;
+    margin: 2em;
+    padding: 1em;
+    background-color: darkslategrey;
+}
+
+.calculadora label {
+    display: none;
+	color: white;
+}
+
+#pantalla {
+    margin-bottom: 0.25em;
+    background-color: darkseagreen;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 2em;
+    overflow: auto;
+    text-align: right;
+    vertical-align: bottom;
+    height: 5em;
+    box-sizing: border-box;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#pantalla * {
+    margin: 0;
+}
+
+#entrada {
+    border-top: 0.1em solid black;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.memoria {
+    background-color: gray;
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+.operador {
+    background-color: crimson;
+    font-family: "Andale Mono", AndaleMono, monospace;
+	color: white;
+}
+
+.funcion {
+    background-color: cadetblue;
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+.enter {
+    background-color: orange;
+    font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+.botones input {
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    height: 2.5em;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ejercicio 3</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css"/>
+        <script src="CalculadoraBasica.js"></script>
+    </head>
+    <body>
+        <h1>Calculadora básica</h1>
+        <div class="calculadora">
+            <label for="pantalla">Pantalla de la calculadora:</label>
+            <input type="text" value ="" name="display" id="pantalla" readonly/>
+            <div class="botones">
+                <input type="button" name="Recuperar memoria" value=" mrc " onclick="calculadora.mrc()" class="memoria"/>
+                <input type="button" name="Restar de memoria" value=" m- " onclick="calculadora.mMenos()" class="memoria"/>
+                <input type="button" name="Sumar a memoria" value=" m+ " onclick="calculadora.mMas()" class="memoria"/>
+                <input type="button" name="División" value=" / " onclick="calculadora.division()" class="operador"/>
+
+                <input type="button" name="7" value=" 7 " onclick="calculadora.digitos(7)"/>
+                <input type="button" name="8" value=" 8 " onclick="calculadora.digitos(8)"/>
+                <input type="button" name="9" value=" 9 " onclick="calculadora.digitos(9)"/>
+                <input type="button" name="Multiplicación" value=" * " onclick="calculadora.multiplicacion()" class="operador"/>
+
+                <input type="button" name="4" value=" 4 " onclick="calculadora.digitos(4)"/>
+                <input type="button" name="5" value=" 5 " onclick="calculadora.digitos(5)"/>
+                <input type="button" name="6" value=" 6 " onclick="calculadora.digitos(6)"/>
+                <input type="button" name="Resta" value=" - " onclick="calculadora.resta()" class="operador"/>
+
+                <input type="button" name="1" value=" 1 " onclick="calculadora.digitos(1)"/>
+                <input type="button" name="2" value=" 2 " onclick="calculadora.digitos(2)"/>
+                <input type="button" name="3" value=" 3 " onclick="calculadora.digitos(3)"/>
+                <input type="button" name="Suma" value=" + " onclick="calculadora.suma()" class="operador"/>
+
+                <input type="button" name="0" value=" 0 " onclick="calculadora.digitos(0)"/>
+                <input type="button" name="Punto decimal" value=" . " onclick="calculadora.punto()"/>
+                <input type="button" name="Borrar" value=" C " onclick="calculadora.borrar()"/>
+                <input type="button" name="Igual" value=" = " onclick="calculadora.igual()"/>
+            </div>
+        </div>
+        <footer>
+            <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+                <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+        </footer>
+    </body>
+</html>

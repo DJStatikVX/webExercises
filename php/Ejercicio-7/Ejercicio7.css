@@ -1,0 +1,162 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: seashell;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+  
+h1 {
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    border: 0.25em solid black;
+    padding: 0.25em;
+}
+  
+.hidden {
+    display: none;
+}
+  
+.opciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+  
+input[type="submit"] {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    border: 0.2em solid black;
+    margin-bottom: 0.5em;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+.colorVerde {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+	border: 0.15em solid black;
+	padding: 0.25em;
+}
+
+.error {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+	border: 0.15em solid black;
+	padding: 0.25em;
+}
+
+p {
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.formulario {
+    margin-top: 1em;
+}
+
+.formulario div {
+    margin-bottom: 1em;
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.campo label {
+    text-align: end;
+    margin-right: 0.25em;
+}
+
+.campo input[type="text"] {
+    width: 15em;
+    height: 1.25em;
+}
+
+.campo input[type="submit"] {
+    margin-left: 1em;
+    font-size: 0.8em;
+    height: 1.8em;
+}
+
+.etiquetaCampo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+}
+
+.busqueda * {
+    text-align: start;
+}
+
+.pelicula {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-bottom: 0.25em;
+}
+
+.actor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+
+.caratula {
+    width: 10em;
+    height: 15em;
+    margin-right: 2em;
+}
+
+.tituloArgumentoPelicula, .masInfoPelicula {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.separador {
+    border-top: 0.25em solid black;
+    padding-top: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

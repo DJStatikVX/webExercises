@@ -1,0 +1,90 @@
+#contenido {
+    display: grid;
+    grid-template-columns: repeat(3, 0.325fr);
+    margin: 1em;
+    background-color: cadetblue;
+    padding: 1em;
+    border: 0.5em solid white;
+    grid-gap: 1em;
+    overflow-x: auto;
+}
+
+table {
+    border: 0.5em  black;
+    table-layout: fixed;
+}
+
+td {
+    padding: 0.3em;
+    border: 0.2em solid black;
+    background-color: white;
+    color: black;
+}
+
+th {
+    border: 0.2em solid black;
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#botones input {
+    margin: 0.25em;
+}
+
+input[type="button"] {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#estadisticas {
+    display: grid;
+}
+
+#estadisticas > p {
+    color: black;
+    background-color: white;
+    border: 0.2em solid black;
+    padding: 0.1em;
+}
+
+#estadisticasVer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.75em;
+    margin-top: 0.25em;
+}
+
+#estadisticasImagen {
+    display: flex;
+    justify-content: center;
+}
+
+#botonesSumar {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75em;
+}
+
+#contenido > img {
+    margin-top: 2em;
+}
+
+#botonesSuperiores {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(3, 0fr);
+}

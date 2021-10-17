@@ -1,0 +1,122 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #D3D3D3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+  
+h1 {
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 0.25em solid black;
+    padding: 0.25em;
+}
+  
+.hidden {
+    display: none;
+}
+  
+.opciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+  
+input[type="submit"] {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    border: 0.2em solid black;
+    margin-bottom: 0.5em;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}
+
+.colorVerde {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+	border: 0.15em solid black;
+	padding: 0.25em;
+}
+
+.error {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+	border: 0.15em solid black;
+	padding: 0.25em;
+}
+
+p {
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.formulario div {
+    margin-bottom: 1em;
+}
+
+.campo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.campo label {
+    text-align: end;
+    margin-right: 0.25em;
+}
+
+.campo input {
+    width: 10em;
+}
+
+.campo select {
+    width: 3em;
+}
+
+.divEnviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.25em;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+}
+
+.busqueda * {
+    text-align: start;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

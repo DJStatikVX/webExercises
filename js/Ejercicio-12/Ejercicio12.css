@@ -1,0 +1,78 @@
+body {
+    background-color: lightgray;
+    font-family: "Andale Mono", AndaleMono, monospace; 
+    min-width: 5em;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido input {
+    font-size: 1.25em;
+}
+
+#archivos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.archivo {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    align-items: center;
+    border: 0.5em solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    overflow: auto;
+}
+
+.archivo > .cuerpo {
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.encabezado * {
+    margin: 0;
+    padding-bottom: 0.35em;
+}
+
+.hidden {
+    display: none;
+}
+
+.contenido {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto {
+    text-align: left;
+    font-weight: lighter;
+}

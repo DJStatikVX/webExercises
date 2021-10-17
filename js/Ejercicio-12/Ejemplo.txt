@@ -1,0 +1,2 @@
+Esto es un fichero TXT de prueba
+para el Ejercicio 12 de ECMAScript.

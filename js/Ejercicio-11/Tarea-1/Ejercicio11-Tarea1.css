@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 0.25em solid black;
+    padding: 0.25em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido input {
+    font-size: 1.25em;
+}
+
+#posicion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}

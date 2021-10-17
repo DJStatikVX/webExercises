@@ -1,0 +1,34 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 0.25em solid black;
+    padding: 0.25em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapa {
+    height: 500px;
+    width: 90%;
+}
+
+.hidden {
+    display: none;
+}

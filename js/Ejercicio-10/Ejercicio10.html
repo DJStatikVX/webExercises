@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <title>Ejercicio 10</title>
+        <link rel="stylesheet" type="text/css" href="Ejercicio10.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Ejercicio10.js"></script>
+    </head>
+    <body>
+        <section>
+            <h1>Cotizaciones en Bolsa</h1>
+            <p class="hidden">UO271612</p>
+            <div id="contenido">
+                    <input type="button" id="botonDatos" value="Obtener Últimos Datos del Mercado" onclick="marketStackApi.accionDatos()"/>
+                    <div id="tickers">
+
+                    </div>
+            </div>
+        </section>
+        <footer>
+            <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+                <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejercicio 7</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+    <div id="contenido">
+        <div id="texto">
+            <h1 id="h1">Ventas de Smartphones</h1>
+            <h2 id="h2">Software y Estándares para la Web</h2>
+            <h3 id="h3">Samuel Rodríguez Ares (UO271612)</h3>
+        </div>
+        <div id="estadisticas">
+            <p id="p">Estas son las ventas de la última semana:</p>
+            <table id="table">
+                <tr class="fila">
+                    <th>Fabricante</th>
+                    <th>Modelo</th>
+                    <th>Unidades vendidas</th>
+                </tr>
+                <tr class="fila">
+                    <td>Samsung</td>
+                    <td>Galaxy A51</td>
+                    <td>27</td>
+                </tr>
+                <tr class="fila">
+                    <td>Apple</td>
+                    <td>iPhone 12</td>
+                    <td>78</td>
+                </tr>
+                <tr class="fila">
+                    <td>OPPO</td>
+                    <td>realme 7</td>
+                    <td>21</td>
+                </tr>
+                <tr class="fila">
+                    <td>Xiaomi</td>
+                    <td>Redmi Note 9S</td>
+                    <td>94</td>
+                </tr>
+            </table>
+            <div id="estadisticasVer">
+                <input type="button" id="botonVerVentas" onclick="listener.verVentas()" value="Ver Ventas"/>
+                <input type="button" id="botonVerCuota" onclick="listener.verCuotas()" value="Ver Cuotas"/>
+            </div>
+            <div id="estadisticasImagen">
+                <input type="button" id="botonAdjuntarImagen" onclick="listener.adjuntarImagen()"
+                    value="Adjuntar Imagen"/>
+                <input type="button" id="botonEliminarImagen" onclick="listener.eliminarImagen()"
+                    value="Eliminar Imagen"/>
+            </div>
+            <div id="botonesSumar">
+                <input type="button" id="botonCalcularFilasTablaCuotas" onclick="listener.calcularFilasTablaCuotas()"
+                    value="Sumar Filas Cuotas"/>
+                <input type="button" id="botonCalcularColumnasTablaCuotas"
+                    onclick="listener.calcularColumnasTablaCuotas()" value="Sumar Columnas Cuotas"/>
+            </div>
+        </div>
+    </div>
+    <div id="botones">
+        <input type="button" id="botonH1" onclick="listener.toggleH1()" value="Ocultar h1"/>
+        <input type="button" id="botonH2" onclick="listener.toggleH2()" value="Ocultar h2"/>
+        <input type="button" id="botonH3" onclick="listener.toggleH3()" value="Ocultar h3"/>
+        <input type="button" id="botonP" onclick="listener.toggleP()" value="Ocultar Párrafo"/>
+        <input type="button" id="botonTable" onclick="listener.toggleTable()" value="Ocultar Tabla"/>
+        <input type="button" id="botonRecorrer" onclick="listener.recorrerDOM()" value="Recorrer Árbol DOM"/>
+    </div>
+    <footer>
+        <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+            <img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a>
+    </footer>
+</body>
+
+</html>

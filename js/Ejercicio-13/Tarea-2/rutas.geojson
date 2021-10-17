@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-5.994663,37.384657],[-6.343660,38.916110],[-5.902670,42.295340],[-5.661520,43.535730]]
+      },
+	  "properties": {
+		"name": "Ruta Vía de la Plata",
+		"description": "No solo se trata de un itinerario cultural de primer orden, sino que además la Red de Cooperación de Ciudades en la Ruta de la Plata es una de las entidades que más claramente apuesta por los moteros. El trazado es la ruta perfecta: cerca de 1.000 kilómetros, desde Asturias hasta Andalucía, a través de cuatro comunidades autónomas y paisajes de ensueño."
+	  }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-8.518350,43.328160],[-8.822710,43.314940],[-9.159430,43.168640],[-9.289440,42.889380]]
+      },
+	  "properties": {
+		"name": "Ruta Costa da Morte",
+		"description": "La Costa da Morte ocupa el segmento noroeste del litoral gallego, extendiéndose al largo de docenas de kilómetros, dentro de los límites de la provincia de A Coruña. En esta costa, encontraremos playas desiertas, ensenadas y acantilados."
+	  }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-3.443620,43.453810],[-3.734680,43.451260],[-4.099220,43.404290],[-4.624560,43.149430]]
+      },
+	  "properties": {
+		"name": "Ruta por Cantabria y Asturias",
+		"description": "Ruta por Cantabria hasta cerca de Unquera, donde se toma la carretera hacia Potes e inmediatamente el desvío para ir por la carretera que discurre junto al río Cares. Una carretera espectacular y unos paisajes impresionantes, para luego girar a la izquierda y subir hasta los Lagos de Covadonga."
+	  }
+    }
+  ]
+}
